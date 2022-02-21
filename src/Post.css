@@ -1,0 +1,36 @@
+.post {
+  width: 100vh;
+  margin: 30px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+.post_images {
+  width: 50%;
+  object-fit: contain;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  text-align: center;
+}
+.post_text {
+  font-weight: normal;
+  padding: 20px;
+  background-color: rgb(169, 229, 231);
+}
+.post_header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.post_comments p{
+  padding: 10px;
+}
+.post_avatar {
+  margin-right: 5px;
+}
+.user_name{
+  padding: 5px;
+}
+.post_comm{
+  color:aqua;
+}
